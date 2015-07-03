@@ -56,18 +56,19 @@ body {
     	left:11.5%;
   }
 	
-  h2 a {
+  h2 a:link {
   	color:#2B9373;
+  	-webkit-transition: .4s ease-out;
+	-moz-transition: .4s ease-out;
+	-o-transition: .4s ease-out;
+	transition: .4s ease-out;
   	text-decoration:none;
   }
+  
 
   h2 a:hover {
   	text-decoration:underline;
 	border-bottom: 0px solid #2B9373;
-	-webkit-transition: .4s ease-out;
-	-moz-transition: .4s ease-out;
-	-o-transition: .4s ease-out;
-	transition: .4s ease-out;
   }
  
   .circle {
