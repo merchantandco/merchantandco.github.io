@@ -64,6 +64,11 @@ body {
 
   h2 a:hover {
   	text-decoration:underline;
+  	border-bottom: 0px solid #F04B4D;
+	-webkit-transition: .4s ease-out;
+	-moz-transition: .4s ease-out;
+	-o-transition: .4s ease-out;
+	transition: .4s ease-out;
   }
  
   .circle {
