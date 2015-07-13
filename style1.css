@@ -1,10 +1,11 @@
 <!--Main CSS-->
 
 body {
-	background-color:rgba(134, 102, 164, 0.2);
-	margin:0;
-        padding:0;
-    }
+background-color:rgba(134, 102, 164, 0.2);
+margin:0;
+padding:0;
+}
+
 #elementscontainer {
 	display:block;
 	width: 322px;
