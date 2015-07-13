@@ -9,44 +9,255 @@
 	<meta http-equiv="X-UA-Compatible" content ="IE=edge, chrome=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	
-	<link rel = "stylesheet" href ="style1.css" type="text/css">
+	<!-- <link rel = "stylesheet" href ="style1.css" type="text/css"> -->
 	<style type ="text/css"></style>
+
+	<!-- Displaying PDF -->
 	
 	<script type="text/javascript">
-
-  	var _gaq = _gaq || [];
+  	
+	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-17964156-2']);
 	_gaq.push(['_trackPageview']);
-
-  	(function() {
+  	
+	(function() {
     	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   	})();
 
 	</script>
+
+	<!-- Showing and Hiding Content -->
 	
 </head>
 
-<body>
+<body> 
 
-<!-- Main Content -->
-<html>
-	<div class = "centered" id=rec>
+	<!-- Main Content -->
+	<html>
 
-		<div class = "container">
+	<!-- The class "globloc" is the global location of all of the elements relative to the box "elementscontainer" -->
+	<div class= "globloc" id= "elementscontainer">
+	
+        <img src = "http://github.com/suzannemerchant/suzannemerchant.github.io/blob/master/Images/Moustache.png" style="width:60px;height:18px;">
+        <img src = "http://github.com/suzannemerchant/suzannemerchant.github.io/blob/master/Images/SpeechBubble.png" style="width:90px;height:52px;">
+        
+	    <! -- Links -->
+		<h2><a href ="" target = "_blank">CV [PDF]</a><h2></h2>
+		<h2><a href ="" target = "_blank">Portfolio [PDF]</a><h2></h2>
+		<h2><a href ="http://merchantprocess.tumblr.com/" target = "_blank">Blog</a><h2></h2>
+		
+		<div id = "line-divider-long1"></div>
+	
+		<h1>SUZANNE MERCHANT<h1>
+		
+		<div id = "line-divider-long2"></div>
+		
+		<div class = "locloc" id="subelcont">
 
-		<h1>Suzanne Merchant</h1>
-
-		<!-- Links  -->
-		<h2><a href = "http://merchantprocess.tumblr.com/" target ="_blank"> Process [blog]</a></h2></th>
-		<h2><a href = "http://docs.google.com/gview?url=http://github.com/suzannemerchant/suzannemerchant.github.io/raw/master/CV.pdf&embedded=true" 
--style="width:600px; height:500px; target ="_blank"> CV </a></h2></th>
-		<h2><a href = "http://docs.google.com/gview?url=http://github.com/suzannemerchant/suzannemerchant.github.io/raw/master/Suzanne%20Merchant%20-%20Samples.pdf&embedded=true" 
--style="width:600px; height:500px;  target ="_blank"> Portfolio </a></h2></th>
-
+		<!-- About Paragraph -->
+		<h3> ABOUT </h3>
+		<p><span id="span1">Suzanne Merchant is a second year architecture student at the University of Waterloo.<span></p>  
+		<p>Her design interests lie primarily in the realms of <span id="span2">architecture</span> [any act which transforms an idea to a physical reality], <span id="span2" >computation</span>, and <span id="span2">graphic/print design</span>. She is also very interested in understanding how a material behaves; its strength’s and weaknesses, and how one can use this understanding to fabricate better “objects” regardless of the scale.</p>
+		<p>Suzanne is also an avid rock climber, with a passion for singing and has a liking for doodling interesting moustaches.</p> 
+		
+		<div id = "line-divider-short1"></div>
+		
+		<div id = "line-divider-short2"></div>
+		
+		<!-- Website Images -->
+		<img src="http://github.com/suzannemerchant/suzannemerchant.github.io/blob/master/Images/Model.jpg">
+		<img src="http://github.com/suzannemerchant/suzannemerchant.github.io/blob/master/Images/BuildingatAngle.jpg">
+		<img src="http://github.com/suzannemerchant/suzannemerchant.github.io/blob/master/Images/Model2.jpg">
+		
 		</div>
-	</div>
-</html>
+		
+		<!-- Contact Info -->
+	<h4> <span>E</span> | suzannemerchant@gmail.com    <span>P</span> | + 1 226 600 8321</h4
+		
+    </div>
 
-</body>
+	</html>
+
+	<!--Main CSS-->
+	<style = "text/css" media ="screen">
+
+	body {
+	    background-color:rgba(134, 102, 164, 0.2);
+	    margin:0;
+        padding:0;
+    }
+
+	#elementscontainer {
+	    display:block;
+		width: 322px;
+		height: 360px;
+		border-style:solid;
+		border-width:0px;
+		border-color:#FFFFFF;
+	}
+
+	.globloc {
+		position: absolute;
+		left: 50%;
+		margin: 100px -161px;
+	}
+		
+		#line-divider-long1 {
+		    position:relative;
+		    top:5px;
+		    width:322px;
+		    height:1px;
+		    background-color:rgb(134,102,164);
+		}
+		
+		#line-divider-long2 {
+		    position:relative;
+		    top:-5px;
+		    width:322px;
+		    height:1px;
+		    background-color:rgb(134,102,164);
+		}
+		
+		h2 {
+		    position:relative;
+		    text-align:left;
+		    display:inline;
+		    padding-top:0px;
+			padding-right:5px;
+			font-family:Lato;
+			font-size:16px;
+			font-style:italic;
+			font-weight:300;
+			color: #EF4020;
+		}
+		
+		a:link {
+		    color: #EF4020;
+	        text-decoration: none;
+	        -webkit-transition: 0.5s ease-out;
+    	    -moz-transition: 0.5s ease-out;
+	        -o-transition: 0.5s ease-out;
+	        transition: 0.5s ease-out;
+		}
+		
+		a:visited {
+		    color: #EF4020;
+		    text-decoration:none;
+		}
+			
+	    a:hover, a:focus {
+	        color:#E59291;
+		}
+		
+	   h1 {
+	       position: relative;
+		   margin-top: 5px;
+		   margin-bottom:0px;
+		   text-align:left;
+		   display: block;
+		   font-family: Lato;
+		   font-size: 30px;
+		   font-weight:900;
+		   color:#EF4020;
+		}
+		
+		#subelcont {
+		    width:322px;
+		    height:291px;
+		    border-style:solid;
+		    border-width:0px;
+		    border-color:#FFFF;
+		    
+		}
+		
+		#locloc{
+		    position:absolute;
+		    left: 50%;
+		    margin: 150px -160px;
+		}
+		
+		    h3 {
+		        position:relative;
+		        margin-top:5px;
+		        margin-left:114px;
+		        margin-bottom:0px;
+		        display:block;
+		        font-family:Lato;
+		        font-size:18px;
+		        font-style:none;
+		        font-weight:300;
+		        color:#EF4020;
+		        font-style:italic;
+		    }
+			
+		        p {
+		            position:relative;
+			        margin-top: 8px;
+			        margin-left:114px;
+			        display:block;
+			        text-align: left;
+			        text-justify:inter-word;
+			        font-family: Lato;
+			        font-size:12px;
+			        font-weight:400;
+			        font-style:italic;
+			        color:black;
+		        }
+		
+		        #span1 {
+		            text-decoration:underline;
+		        }
+		
+	    	    #span2 {
+		            text-decoration:none;
+		            color:#EF4020;
+		            font-weight:800;
+		        }
+		
+		        img {
+		            position:relative;
+		            top:-888px;
+		            left:8px;
+		            margin-top:0px;
+		            margin-bottom:13px;
+		            display:block;
+	                width:87px;
+	                height:87px;
+	            }
+	        
+	                #line-divider-short1 {
+		                position:relative;
+		                top:-305px;
+		                left:0px;
+		                height:291px;
+		                width:1px;
+		                background-color:rgb(134,102,164);
+		            }
+	        
+	                 #line-divider-short2 {
+		                position:relative;
+		                top:-596px;
+		                left:105px;
+		                height:291px;
+		                width:1px;
+		                background-color:rgb(134,102,164);
+		            }
+		
+		 h4 {
+            position:relative;
+            transform:rotate(-90deg);
+            margin-top:-342px; 
+            margin-left:-350px;
+		    display:block;
+	        font-family:Lato;
+	        font-size:11px;
+	        color:black;
+	    }
+	
+	    h4 span {
+	        color:#EF4020;
+	        font-weight:800;
+	    }
+</body>	
