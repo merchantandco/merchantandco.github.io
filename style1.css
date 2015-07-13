@@ -5,49 +5,48 @@ body {
 	margin:0;
         padding:0;
     }
+#elementscontainer {
+	display:block;
+	width: 322px;
+	height: 360px;
+	border-style:solid;
+	border-width:0px;
+	border-color:#FFFFFF;
+}
 
-	#elementscontainer {
-	    display:block;
-		width: 322px;
-		height: 360px;
-		border-style:solid;
-		border-width:0px;
-		border-color:#FFFFFF;
-	}
+.globloc {
+	position: absolute;
+	left: 50%;
+	margin: 100px -161px;
+}
 
-	.globloc {
-		position: absolute;
-		left: 50%;
-		margin: 100px -161px;
+	#line-divider-long1 {
+		position:relative;
+		top:5px;
+		width:322px;
+		height:1px;
+		background-color:rgb(134,102,164);
 	}
 		
-		#line-divider-long1 {
-		    position:relative;
-		    top:5px;
-		    width:322px;
-		    height:1px;
-		    background-color:rgb(134,102,164);
-		}
-		
-		#line-divider-long2 {
-		    position:relative;
-		    top:-5px;
-		    width:322px;
-		    height:1px;
-		    background-color:rgb(134,102,164);
-		}
+	#line-divider-long2 {
+		position:relative;
+		top:-5px;
+		width:322px;
+		height:1px;
+		background-color:rgb(134,102,164);
+	}
 		
 		h2 {
-		    position:relative;
-		    text-align:left;
-		    display:inline;
-		    padding-top:0px;
-		    padding-right:5px;
-		    font-family:Lato;
-		    font-size:16px;
-		    font-style:italic;
-		    font-weight:300;
-		    color: #EF4020;
+			position:relative;
+		    	text-align:left;
+		    	display:inline;
+		    	padding-top:0px;
+		    	padding-right:5px;
+		    	font-family:Lato;
+		    	font-size:16px;
+		    	font-style:italic;
+		    	font-weight:300;
+		    	color: #EF4020;
 		}
 		
 		a:link {
@@ -68,16 +67,16 @@ body {
 	        color:#E59291;
 		}
 		
-	   h1 {
-	       	position: relative;
-	       	margin-top: 5px;
-	       	margin-bottom:0px;
-	       	text-align:left;
-	       	display: block;
-	       	font-family: Lato;
-	       	font-size: 30px;
-	       	font-weight:900;
-	       	color:#EF4020;
+	   	h1 {
+	       		position: relative;
+	       		margin-top: 5px;
+	       		margin-bottom:0px;
+	       		text-align:left;
+	       		display: block;
+	       		font-family: Lato;
+	       		font-size: 30px;
+	       		font-weight:900;
+	       		color:#EF4020;
 		}
 		
 		#subelcont {
@@ -94,23 +93,22 @@ body {
 		    left: 50%;
 		    margin: 150px -160px;
 		}
-		
-		    h3 {
-		        position:relative;
-		        margin-top:5px;
-		        margin-left:114px;
-		        margin-bottom:0px;
-		        display:block;
-		        font-family:Lato;
-		        font-size:18px;
-		        font-style:none;
-		        font-weight:300;
-		        color:#EF4020;
-		        font-style:italic;
-		    }
+			h3 {
+		        	position:relative;
+		        	margin-top:5px;
+		        	margin-left:114px;
+		        	margin-bottom:0px;
+		        	display:block;
+		        	font-family:Lato;
+		        	font-size:18px;
+		        	font-style:none;
+		        	font-weight:300;
+		        	color:#EF4020;
+		        	font-style:italic;
+		    	}
 			
 		        p {
-		            position:relative;
+		            	position:relative;
 			        margin-top: 8px;
 			        margin-left:114px;
 			        display:block;
@@ -124,25 +122,25 @@ body {
 		        }
 		
 		        #span1 {
-		            text-decoration:underline;
+		            	text-decoration:underline;
 		        }
 		
-	    	    #span2 {
-		            text-decoration:none;
-		            color:#EF4020;
-		            font-weight:800;
+	    	    	#span2 {
+		            	text-decoration:none;
+		            	color:#EF4020;
+		            	font-weight:800;
 		        }
 		
 		        img {
-		            position:relative;
-		            top:-888px;
-		            left:8px;
-		            margin-top:0px;
-		            margin-bottom:13px;
-		            display:block;
-	                width:87px;
-	                height:87px;
-	            }
+		            	position:relative;
+		            	top:-888px;
+		            	left:8px;
+		            	margin-top:0px;
+		            	margin-bottom:13px;
+		            	display:block;
+	                	width:87px;
+	                	height:87px;
+	            	}
 	        
 	                #line-divider-short1 {
 		                position:relative;
@@ -151,9 +149,9 @@ body {
 		                height:291px;
 		                width:1px;
 		                background-color:rgb(134,102,164);
-		            }
+		        }
 	        
-	                 #line-divider-short2 {
+	                #line-divider-short2 {
 		                position:relative;
 		                top:-596px;
 		                left:105px;
@@ -171,9 +169,9 @@ body {
 	        	font-family:Lato;
 	        	font-size:11px;
 	        	color:black;
-	    }
+	    	}
 	
-	    h4 span {
-	        color:#EF4020;
-	        font-weight:800;
-	    }
+	    	h4 span {
+	        	color:#EF4020;
+	        	font-weight:800;
+	    	}
