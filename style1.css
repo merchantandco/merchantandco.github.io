@@ -57,7 +57,7 @@ img {
 h1 {
 	position: relative;
 	left:50%;
-	margin:1 auto;
+	margin:0 auto;
 	text-align:center;
 	font-family:Karla;
 	font-size:32px;
