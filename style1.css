@@ -59,7 +59,7 @@ h1 {
 	left:50%;
 	margin:0 auto;
 	text-align:left;
-	font-family:Lato;
+	font-family:Karla;
 	font-size:30px;
 	font-weight:900;
 	color:rgb(0,0,0);
@@ -76,8 +76,8 @@ h2 {
         margin: 3px auto;
 	padding-right:8px;
 	display:inline;
-        text-align:left;
-	font-family:Lato;
+        text-align:center;
+	font-family:Karla;
 	font-size:18px;
 	font-weight:300;
 	color: rgb(0,0,0);
@@ -109,7 +109,7 @@ h3 {
 	margin-left:auto;
 	margin-top: 2px;
 	margin-bottom:3px;
-    	font-family:Lato;
+    	font-family:Karla;
 	font-size:13px;
 	font-weight:300;
 	color:rgb(0,0,0);
