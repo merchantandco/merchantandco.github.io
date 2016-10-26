@@ -58,6 +58,7 @@ h1 {
 	position: relative;
 	left:50%;
 	margin:0 auto;
+	display:inline;
 	text-align:center;
 	font-family:Karla;
 	font-size:32px;
