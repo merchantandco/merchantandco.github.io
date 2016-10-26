@@ -16,7 +16,7 @@ body {
         border-radius:50%;
 	width:400px;
 	height:400px;
-	border: solid 1px rgb(43,147,164);
+	border: solid 1px rgb(0,0,0);
 }
     
 #dotted-circle {
@@ -26,7 +26,7 @@ body {
         border-radius:50%;
 	width:374px;
 	height:374px; 
-	border: solid 3px rgb(201,36,102);
+	border: solid 3px rgb(0,0,0);
 }
     
 .container {
@@ -51,7 +51,7 @@ img {
 	margin:6px 0px;
 	width:315px;
 	height:2px;
-	background-color:rgb(43,147,164);
+	background-color:rgb(0,0,0);
 }
 	
 h1 {
@@ -62,12 +62,12 @@ h1 {
 	font-family:Lato;
 	font-size:30px;
 	font-weight:900;
-	color:rgb(201,36,102);
+	color:rgb(0,0,0);
 }
 	
 h1 span {
 	font-weight:300;
-	color:rgb(201,36,102);
+	color:rgb(0,0,0);
 }
     
 h2 {
@@ -80,11 +80,11 @@ h2 {
 	font-family:Lato;
 	font-size:18px;
 	font-weight:300;
-	color: rgb(201,36,102);
+	color: rgb(0,0,0);
 }
 
 a:link {
-	color: rgb(201,36,102);
+	color: rgb(0,0,0);
 	text-decoration: none;
 	-webkit-transition: 0.3s ease-out;
     	-moz-transition: 0.3s ease-out;
@@ -93,12 +93,12 @@ a:link {
 }
 	
 a:visited {
-	color: rgb(201,36,102);
+	color: rgb(0,0,0);
 	text-decoration:none;
 }
 
 h2 a:hover, a:focus {
-	border-bottom: 1px dashed rgb(201,36,102);
+	border-bottom: 1px dashed rgb(128,130,133);
 }
 	    
 h3 {
@@ -112,7 +112,7 @@ h3 {
     	font-family:Lato;
 	font-size:13px;
 	font-weight:300;
-	color:rgb(201,36,102);
+	color:rgb(0,0,0);
 }
 
 h3 span {
@@ -121,7 +121,7 @@ h3 span {
 
 #purple-divider {
 	font-weight:900;
-	color:rgb(43,147,164);
+	color:rgb(0,0,0);
 	
 }
 </style>
