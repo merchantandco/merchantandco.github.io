@@ -57,7 +57,7 @@ img {
 h1 {
 	position: relative;
 	left:50%;
-	margin:0 auto;
+	margin:1px auto;
 	display:inline;
 	text-align:left;
 	font-family:Karla;
@@ -74,7 +74,7 @@ h1 span {
 h2 {
         position:relative;
         left:50%;
-        margin: 3px auto;
+        margin: 4px auto;
 	padding-right:8px;
 	display:inline;
         text-align:center;
