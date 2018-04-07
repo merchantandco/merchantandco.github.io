@@ -39,13 +39,6 @@ body {
 	/* bring your own prefixes */
   	transform: translate(-50%, -50%); 	
 }
-
-.center {
-    	position: absolute;
-    	left: 0;
-    	top: 50%;
-    	width: 100%;
-}
     
 img {
         position:relative;
