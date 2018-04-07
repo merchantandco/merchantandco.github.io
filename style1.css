@@ -37,9 +37,7 @@ body {
  	top: 50%;
   	left: 50%;
 	/* bring your own prefixes */
-  	transform: translate(-50%, -50%);
-	width:315px;
-	height:83px;  	
+  	transform: translate(-50%, -50%); 	
 }
     
 img {
