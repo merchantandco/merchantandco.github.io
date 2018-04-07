@@ -35,7 +35,7 @@ body {
 .container {
 	position: fixed;
  	top: 50%;
-  	left: 50%;
+  	left: 25%;
 	/* bring your own prefixes */
   	transform: translate(-50%, -50%);
 	width:100%;
@@ -46,7 +46,6 @@ img {
         position:relative;
 	display:block;
 	left:50%;
-	margin: 260px -30px;
 }
 	
 #line-divider-thick {
