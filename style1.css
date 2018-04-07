@@ -74,6 +74,9 @@ h1 span {
     
 h2 {
         position:relative;
+	left:50%;
+        margin: 4px auto;
+	padding-right:16px;
 	display:inline;
         text-align:center;
 	font-family:Karla;
