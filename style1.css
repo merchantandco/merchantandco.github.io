@@ -8,7 +8,7 @@ body {
         display:block;
 }
     
-#solid-circle {
+#thin-circle {
 	position: fixed;
   	top: 50%;
   	left: 50%;
@@ -20,7 +20,7 @@ body {
 	border: solid 1px rgb(158, 67, 72);
 }
     
-#dotted-circle {
+#thick-circle {
         position: fixed;
   	top: 50%;
   	left: 50%;
