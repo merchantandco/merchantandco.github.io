@@ -33,7 +33,7 @@ body {
 }
     
 .container {
-	position: fixed;
+	position: relative;
  	top: 25%;
   	left: 25%;
 	right:25%;
