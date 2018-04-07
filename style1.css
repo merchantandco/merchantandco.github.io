@@ -34,7 +34,7 @@ body {
     
 .container {
 	position: fixed;
- 	top: 50%;
+ 	top: 25%;
   	left: 25%;
 	right:25%;
 	/* bring your own prefixes */
