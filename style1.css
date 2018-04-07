@@ -38,6 +38,7 @@ body {
   	left: 50%;
 	right: 50%;
 	width:315px;
+	height:83px;
   	/* bring your own prefixes */
   	transform: translate(-50%, -50%);
 }
