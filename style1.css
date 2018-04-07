@@ -34,9 +34,9 @@ body {
     
 .container {
 	position: relative;
- 	top: 25%;
-  	left: 25%;
-	right:25%;
+ 	top: 50%;
+  	left: 50%;
+	right:50%;
 	/* bring your own prefixes */
   	transform: translate(-50%, -50%);
 	width:100%;
