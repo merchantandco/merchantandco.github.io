@@ -99,12 +99,12 @@
 			frmvalidator.addValidation("name","req","Please provide your Name");
  			frmvalidator.addValidation("name","maxlen=50","Max length for Name is 50");
  
- 			frmvalidator.addValidation("Email","maxlen=50");
- 			frmvalidator.addValidation("Email","req", "Please provide your email");
- 			frmvalidator.addValidation("Email","email", "Please enter a valid email address");
+ 			frmvalidator.addValidation("email","maxlen=50");
+ 			frmvalidator.addValidation("email","req", "Please provide your email");
+ 			frmvalidator.addValidation("email","email", "Please enter a valid email address");
 			
-			frmvalidator.addValidation("Subject","req");
-		 	frmvalidator.addValidation("Subject","maxlen=40");
+			frmvalidator.addValidation("message","req");
+		 	frmvalidator.addValidation("message","maxlen=1500");
 			
 		</script>
  
