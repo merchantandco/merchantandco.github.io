@@ -1,6 +1,12 @@
 <!-- Main CSS -->
 <style = "text/css">
 
+body {
+	margin:25%;
+        padding:50%;
+        display:block;
+}
+
 #line-divider-thick {
 	position:relative;
 	left:50%;
