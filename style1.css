@@ -76,7 +76,7 @@ h2 a:hover, a:focus {
 h3 {
 	position:relative;
 	left:50%;
-	display:inline;
+	display:block;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top: 2px;
@@ -100,7 +100,7 @@ h3 span {
 li {
 	position:relative;
 	left:50%;
-	display:inline;
+	display:block;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top: 2px;
