@@ -145,5 +145,31 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 15px;
-} 
+}
+
+#fname {
+	color:#24305e
+	font-family:Karla;
+	font-size:18px;
+}
+
+#lname {
+	color:#24305e
+	font-family:Karla;
+	font-size:18px;
+}
+
+#subject {
+	color:#24305e
+	font-family:Karla;
+	font-size:18px;
+}
+	
+
+::placeholder {
+	color:#24305e
+	font-family:Karla;
+	font-size:13px;
+}
+
 </style>
