@@ -1,21 +1,6 @@
 <!-- Main CSS -->
 <style = "text/css">
-
-body {
-	margin:0;
-        padding:0;
-        display:block;
-}
     	
-#line-divider-thick {
-	position:relative;
-	left:50%;
-	margin:6px 0px;
-	width:315px;
-	height:2px;
-	color:#fccd04;
-}
-	
 h1 {
 	position: relative;
 	left:50%;
