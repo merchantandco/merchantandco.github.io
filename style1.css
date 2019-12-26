@@ -9,8 +9,7 @@ body {
 
 #center-me {
 	position: relative;
-	top: 15%;
-	left: 15%;
+	margin:0 auto;
 }
 
 #line-divider-thick {
