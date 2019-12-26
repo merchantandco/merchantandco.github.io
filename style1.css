@@ -147,6 +147,24 @@ input[type=submit]:hover {
   padding: 15px;
 }
 
+#fname {
+	color:#fccd04; 
+	font-family:Karla;
+	font-size:18px;
+}
+
+#lname {
+	color:#fccd04; 
+	font-family:Karla;
+	font-size:18px;
+}
+
+#subject {
+	color:#fccd04; 
+	font-family:Karla;
+	font-size:18px;
+}
+
 ::placeholder {
 	color:#24305e;
 	font-family: Karla;
