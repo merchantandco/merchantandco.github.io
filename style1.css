@@ -6,15 +6,6 @@ body {
         padding:0;
         display:block;
 }
-    
-
-.container {
-	position: fixed;
- 	top: 25%;
-  	left: 25%;
-	/* bring your own prefixes */
-  	transform: translate(-50%, -50%); 	
-}
     	
 #line-divider-thick {
 	position:relative;
