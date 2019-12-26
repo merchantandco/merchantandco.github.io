@@ -96,4 +96,18 @@ h3 span {
 	color:#fccd04;
 	
 }
+
+li {
+	position:relative;
+	left:50%;
+	display:inline;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 2px;
+	margin-bottom:3px;
+    	font-family:Karla;
+	font-size:13px;
+	font-weight:300;
+	color:#fccd04;
+}
 </style>
