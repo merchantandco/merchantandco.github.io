@@ -147,24 +147,10 @@ input[type=submit]:hover {
   padding: 15px;
 }
 
-::-webkit-input-placeholder {
-    	color:#24305e;
-	font-family: Karla;
-}
-
-::-moz-placeholder {
-    	color:#24305e;
-	font-family: Karla;
-}
-
-::-ms-placeholder {
-	color:#24305e;
-	font-family: Karla;
-}
-
 ::placeholder {
 	color:#24305e;
 	font-family: Karla;
+	font-size: 13px;
 }
 
 </style>
