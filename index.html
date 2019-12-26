@@ -86,8 +86,8 @@
    	 	<label for="email">YOUR EMAIL</label>
     		<input type="text" id="email" name="email" placeholder="Your email here...">
 
-    		<label for="subject">SUBJECT</label>
-    		<textarea id="subject" name="subject" placeholder="Write something..." style="height:75px"></textarea>
+    		<label for="message">SUBJECT</label>
+    		<textarea id="message" name="message" placeholder="Write something..." style="height:75px"></textarea>
 
     		<input type="submit" value="SUBMIT">
 
@@ -97,8 +97,7 @@
 	 		var frmvalidator  = new Validator("contact-form");
                      	//where myform is the name/id of your form
 			frmvalidator.addValidation("name","req","Please provide your Name");
- 			frmvalidator.addValidation("name","maxlen=50",
-        		"Max length for Name is 50");
+ 			frmvalidator.addValidation("name","maxlen=50","Max length for Name is 50");
  
  			frmvalidator.addValidation("Email","maxlen=50");
  			frmvalidator.addValidation("Email","req", "Please provide your email");
