@@ -1,5 +1,11 @@
 <!-- Main CSS -->
 <style = "text/css">
+
+body {
+	margin:0;
+        padding:0;
+        display:block;
+}
     	
 h1 {
 	position: relative;
