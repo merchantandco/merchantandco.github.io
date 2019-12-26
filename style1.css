@@ -2,14 +2,11 @@
 <style = "text/css">
 
 body {
-	margin:15%;
-        padding:0;
-        display:block;
+	background:#f8e9a1;
 }
 
-#center-me {
-	position: relative;
-	margin:0 auto;
+html {
+	
 }
 
 #line-divider-thick {
