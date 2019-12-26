@@ -148,22 +148,22 @@ input[type=submit]:hover {
 }
 
 ::-webkit-input-placeholder {
-    	color:#24305e
+    	color:#24305e;
 	font-family: Karla;
 }
 
 ::-moz-placeholder {
-    	color:#24305e
+    	color:#24305e;
 	font-family: Karla;
 }
 
 ::-ms-placeholder {
-	color:#24305e
+	color:#24305e;
 	font-family: Karla;
 }
 
 ::placeholder {
-	color:#24305e
+	color:#24305e;
 	font-family: Karla;
 }
 
