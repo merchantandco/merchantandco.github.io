@@ -153,6 +153,7 @@ label {
 	color:#fccd04; 
 	font-family:Karla;
 	font-size:13px;
+	text-transform: uppercase;
 }
 
 ::placeholder {
