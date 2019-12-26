@@ -78,7 +78,7 @@
 	<h3> GET IN TOUCH! </h3>
 	<div class="container">
         
-  		<form id = "contact form" method = "post" action="contact-form-handler.php">
+  		<form id = "contact-form" method = "post" action="contact-form-handler.php">
 
     		<label for="name">YOUR NAME</label>
     		<input type="text" id="name" name="name" placeholder="Your name...">
@@ -94,15 +94,15 @@
   		</form>
 		
 		<script type="text/javascript">
-	 		var frmvalidator  = new Validator("myform");
+	 		var frmvalidator  = new Validator("contact-form");
                      	//where myform is the name/id of your form
-			frmvalidator.addValidation("name","req","Please enter your Name");
+			frmvalidator.addValidation("name","req","Please provide your Name");
  			frmvalidator.addValidation("name","maxlen=50",
         		"Max length for Name is 50");
  
  			frmvalidator.addValidation("Email","maxlen=50");
- 			frmvalidator.addValidation("Email","req");
- 			frmvalidator.addValidation("Email","email");
+ 			frmvalidator.addValidation("Email","req", "Please provide your email");
+ 			frmvalidator.addValidation("Email","email", "Please enter a valid email address");
 			
 			frmvalidator.addValidation("Subject","req");
 		 	frmvalidator.addValidation("Subject","maxlen=40");
