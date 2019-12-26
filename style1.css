@@ -7,6 +7,11 @@ body {
         display:block;
 }
 
+#main-block {
+	position: fixed;
+	left: 25%;
+}
+
 #line-divider-thick {
 	position:relative;
 	left:50%;
