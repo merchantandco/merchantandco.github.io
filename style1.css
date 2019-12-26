@@ -7,9 +7,8 @@ body {
         display:block;
 }
 
-#main-block {
-	position: fixed;
-	left: 25%;
+#center-me {
+	margin: 0 auto;
 }
 
 #line-divider-thick {
