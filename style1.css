@@ -46,11 +46,11 @@ h2 {
 	font-family:Karla;
 	font-size:18px;
 	font-weight:300;
-	color:#c5cbe3;
+	color:#90a0de;
 }
 
 a:link {
-	color: #c5cbe3;
+	color: #90a0de;
 	text-decoration: none;
 	-webkit-transition: 0.3s ease-out;
     	-moz-transition: 0.3s ease-out;
@@ -59,7 +59,7 @@ a:link {
 }
 	
 a:visited {
-	color: #c5cbe3;
+	color: #90a0de;
 	text-decoration:none;
 }
 
@@ -92,7 +92,7 @@ h4 {
     	font-family:Karla;
 	font-size:13px;
 	font-weight:900;
-	color:#c5cbe3;
+	color:#90a0de;
 }
 
 h4 a:hover, a:focus {
