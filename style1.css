@@ -28,12 +28,12 @@ h1 {
 	font-family:Karla;
 	font-size:31px;
 	font-weight:900;
-	color:#e84af;
+	color:#e85a4f;
 }
 	
 h1 span {
 	font-weight:300;
-	color:#e84af;
+	color::#e85a4f;
 }
     
 h2 {
@@ -46,11 +46,11 @@ h2 {
 	font-family:Karla;
 	font-size:18px;
 	font-weight:300;
-	color:#e84af;
+	color::#e85a4f;
 }
 
 a:link {
-	color: #fccd04;
+	color: :#e85a4f;
 	text-decoration: none;
 	-webkit-transition: 0.3s ease-out;
     	-moz-transition: 0.3s ease-out;
@@ -59,7 +59,7 @@ a:link {
 }
 	
 a:visited {
-	color: #e84af;
+	color: :#e85a4f;
 	text-decoration:none;
 }
 
@@ -78,7 +78,7 @@ h3 {
     	font-family:Karla;
 	font-size:13px;
 	font-weight:900;
-	color:#e84af;
+	color::#e85a4f;
 }
 
 h4 {
@@ -92,7 +92,7 @@ h4 {
     	font-family:Karla;
 	font-size:13px;
 	font-weight:900;
-	color:#e84af;
+	color::#e85a4f;
 }
 
 h4 a:hover, a:focus {
