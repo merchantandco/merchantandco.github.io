@@ -28,12 +28,12 @@ h1 {
 	font-family:Karla;
 	font-size:31px;
 	font-weight:900;
-	color:#fccd04;
+	color:#e84af;
 }
 	
 h1 span {
 	font-weight:300;
-	color:#fccd04;
+	color:#e84af;
 }
     
 h2 {
@@ -46,7 +46,7 @@ h2 {
 	font-family:Karla;
 	font-size:18px;
 	font-weight:300;
-	color:#fccd04;
+	color:#e84af;
 }
 
 a:link {
@@ -59,7 +59,7 @@ a:link {
 }
 	
 a:visited {
-	color: #fccd04;
+	color: #e84af;
 	text-decoration:none;
 }
 
@@ -78,7 +78,7 @@ h3 {
     	font-family:Karla;
 	font-size:13px;
 	font-weight:900;
-	color:#fccd04;
+	color:#e84af;
 }
 
 h4 {
@@ -92,7 +92,7 @@ h4 {
     	font-family:Karla;
 	font-size:13px;
 	font-weight:900;
-	color:#fccd04;
+	color:#e84af;
 }
 
 h4 a:hover, a:focus {
