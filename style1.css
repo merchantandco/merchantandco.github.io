@@ -50,20 +50,6 @@ h2 {
 	color: #0f0f0f;
 }
 
-a:link {
-	color: #0f0f0f;
-	text-decoration: none;
-	-webkit-transition: 0.3s ease-out;
-    	-moz-transition: 0.3s ease-out;
-	-o-transition: 0.3s ease-out;
-	transition: 0.3s ease-out;
-}
-	
-a:visited {
-	color: #0f0f0f;
-	text-decoration:none;
-}
-
 h2 a:hover, a:focus {
 	color: #d0240d;
 }
@@ -113,6 +99,20 @@ p span3 {
 
 p a:hover, a:focus {
 	color: #d0240d;
+}
+
+a:link {
+	color: #0f0f0f;
+	text-decoration: none;
+	-webkit-transition: 0.3s ease-out;
+    	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+	
+a:visited {
+	color: #0f0f0f;
+	text-decoration:none;
 }
 	
 
