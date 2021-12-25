@@ -9,8 +9,6 @@ body {
     max-width: 550px;
     width: 100%;
     padding: 70px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 
@@ -42,8 +40,8 @@ h2 {
 	left:2.5%;
         margin:6px auto;
 	padding-right:8px;
-	display:inline block;
-        text-align:center;
+	display:inline;
+        text-align:left;
 	font-family:Karla;
 	font-size:16pt;
 	font-weight:300;
@@ -89,8 +87,6 @@ h3 a:hover, a:focus {
 
 p {
 	position:relative;
-	left:2.5%;
-	width:550px;
 	display:inline block;
 	margin-right:auto;
 	margin-left:auto;
@@ -100,6 +96,8 @@ p {
 	font-size:10pt;
 	font-weight:300;
 	color:#0f0f0f;
+	word-wrap: break-word;
+    	overflow-wrap: break-word;
 }
 p span { 
 	font-weight:900;
@@ -124,7 +122,7 @@ p span2 {
 }
 
 .largecol {
-	-webkit-flex:auto;
+  -webkit-flex:auto;
   -moz-flex:auto;
   flex: auto;
   width: 90%;
