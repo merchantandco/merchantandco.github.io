@@ -6,7 +6,7 @@ body {
 
 .grid {
     margin: 0 auto;
-    max-width:480px;
+    max-width:510px;
     width: 100%;
     padding: 60px;
 }
@@ -39,7 +39,6 @@ h1 span {
 h2 {
         position:relative;
 	display:inline;
-        text-align:center;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top: 2px;
