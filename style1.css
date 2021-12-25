@@ -110,6 +110,10 @@ p span2 {
 p span3 {
 	margin-top: 150px;
 }
+
+p a:hover, a:focus {
+	color: #d0240d;
+}
 	
 
 .row {
