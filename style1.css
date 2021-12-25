@@ -41,7 +41,7 @@ h2 {
 }
 
 a:link {
-	color: 0f0f0f;
+	color: #0f0f0f;
 	text-decoration: none;
 	-webkit-transition: 0.3s ease-out;
     	-moz-transition: 0.3s ease-out;
