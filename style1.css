@@ -8,7 +8,9 @@ body {
     margin: 0 auto;
     max-width: 550px;
     width: 100%;
-	padding: 70px;
+    padding: 70px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 
@@ -85,26 +87,6 @@ h3 a:hover, a:focus {
 	color: #d0240d;
 }
 
-li {
-	position:relative;
-	left:2.5%;
-	display:block;
-	margin-right:auto;
-	margin-left:auto;
-	margin-top: 2px;
-	margin-bottom:3px;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-    	font-family:Karla;
-	font-size:10pt;
-	font-weight:300;
-	color:#0f0f0f;
-}
-
-li span {
-	font-style: italic;
-}
-
 p {
 	position:relative;
 	left:2.5%;
@@ -114,8 +96,6 @@ p {
 	margin-left:auto;
 	margin-top: 2px;
 	margin-bottom:3px;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
     	font-family:Karla;
 	font-size:10pt;
 	font-weight:300;
