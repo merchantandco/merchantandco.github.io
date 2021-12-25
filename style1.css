@@ -35,7 +35,7 @@ h2 {
 	display:inline;
         text-align:center;
 	font-family:Karla;
-	font-size:20pt;
+	font-size:18pt;
 	font-weight:300;
 	color:0f0f0f;
 }
@@ -67,7 +67,7 @@ h3 {
 	margin-top: 2px;
 	margin-bottom:3px;
     	font-family:Karla;
-	font-size:15px;
+	font-size:14pt;
 	font-weight:900;
 	color:#0f0f0f;
 }
@@ -87,7 +87,7 @@ li {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
     	font-family:Karla;
-	font-size:15px;
+	font-size:14pt;
 	font-weight:300;
 	color:#0f0f0f;
 }
@@ -107,7 +107,7 @@ p {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
     	font-family:Karla;
-	font-size:15px;
+	font-size:14pt;
 	font-weight:300;
 	color:#0f0f0f;
 }
@@ -116,11 +116,6 @@ p span {
 }
 
 p span2 {
-	font-style: italic;
-}
-
-p SM-Itext {
-	font-size: 10pt;
 	font-style: italic;
 }
 
