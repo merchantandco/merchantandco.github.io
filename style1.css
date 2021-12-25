@@ -6,7 +6,6 @@ body {
 
 .grid {
     margin: 0 auto;
-    max-width: 550px;
     width: 100%;
     padding: 70px;
 }
@@ -38,7 +37,7 @@ h1 span {
     
 h2 {
         position:relative;
-	display:inline block;
+	display:block;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top: 2px;
@@ -86,8 +85,6 @@ h3 a:hover, a:focus {
 
 p {
 	position:relative;
-	left:2.5%;
-	right:2.5%;
 	display:inline block;
 	margin-right:auto;
 	margin-left:auto;
