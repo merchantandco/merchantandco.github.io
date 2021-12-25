@@ -6,8 +6,9 @@ body {
 
 #main {
 	position:relative;
-	left:1%;
-	width: 1200 px;
+	left: 1%;
+	right: 1%;
+	width: 600px;
 }
     	
 h1 {
