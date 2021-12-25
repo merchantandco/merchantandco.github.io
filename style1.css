@@ -9,15 +9,6 @@ body {
 	left:1%;
 	width: 1200 px;
 }
-
-#line-divider-thick {
-	position:relative;
-	left:2.5%;
-	margin:6px 0px;
-	width:315 px;
-	height:2px;
-	color:#fccd04;
-}
     	
 h1 {
 	position: relative;
@@ -27,13 +18,13 @@ h1 {
 	text-align:left;
 	font-family: Karla;
 	font-size:31px;
-	font-weight:1200;
-	color:#e85a4f;
+	font-weight:900;
+	color:#0f0f0f;
 }
 	
 h1 span {
-	font-weight:600;
-	color:#e85a4f;
+	font-weight:900;
+	color:#0f0f0f;
 }
     
 h2 {
@@ -45,12 +36,12 @@ h2 {
         text-align:center;
 	font-family:Karla;
 	font-size:18 px;
-	font-weight:600;
-	color:#90a0de;
+	font-weight:300;
+	color:0f0f0f;
 }
 
 a:link {
-	color: #90a0de;
+	color: 0f0f0f;
 	text-decoration: none;
 	-webkit-transition: 0.3s ease-out;
     	-moz-transition: 0.3s ease-out;
@@ -59,7 +50,7 @@ a:link {
 }
 	
 a:visited {
-	color: #90a0de;
+	color: 0f0f0f;
 	text-decoration:none;
 }
 
@@ -77,8 +68,8 @@ h3 {
 	margin-bottom:3 px;
     	font-family:Karla;
 	font-size:13 px;
-	font-weight:1200;
-	color:#d79922;
+	font-weight:900;
+	color:#0f0f0f;
 }
 
 h4 {
@@ -91,8 +82,8 @@ h4 {
 	margin-bottom:3 px;
     	font-family:Karla;
 	font-size:13 px;
-	font-weight:1200;
-	color:#90a0de;
+	font-weight:600;
+	color:#0f0f0f;
 }
 
 h4 a:hover, a:focus {
@@ -111,8 +102,8 @@ li {
 	overflow-wrap: break-word;
     	font-family:Karla;
 	font-size:13 px;
-	font-weight:600;
-	color:#24305e;
+	font-weight:300;
+	color:#0f0f0f;
 }
 
 p {
@@ -127,8 +118,8 @@ p {
 	overflow-wrap: break-word;
     	font-family:Karla;
 	font-size:13 px;
-	font-weight:600;
-	color:#24305e;
+	font-weight:300;
+	color:#0f0f0f;
 }
 
  /* Style inputs with type="text", select elements and textareas */
