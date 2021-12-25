@@ -35,7 +35,7 @@ h2 {
 	display:inline;
         text-align:center;
 	font-family:Karla;
-	font-size:15px;
+	font-size:20px;
 	font-weight:300;
 	color:0f0f0f;
 }
@@ -72,21 +72,7 @@ h3 {
 	color:#0f0f0f;
 }
 
-h4 {
-	position:relative;
-	left:2.5%;
-	display:block;
-	margin-right:auto;
-	margin-left:auto;
-	margin-top: 2px;
-	margin-bottom:3px;
-    	font-family:Karla;
-	font-size:15px;
-	font-weight:300;
-	color:#0f0f0f;
-}
-
-h4 a:hover, a:focus {
+h3 a:hover, a:focus {
 	color: #d0240d;
 }
 
@@ -106,6 +92,10 @@ li {
 	color:#0f0f0f;
 }
 
+li span {
+	font-style: italic;
+}
+
 p {
 	position:relative;
 	left:2.5%;
@@ -120,6 +110,13 @@ p {
 	font-size:15px;
 	font-weight:300;
 	color:#0f0f0f;
+}
+p span1 { 
+	font-weight:900;
+}
+
+p span2 {
+	font-style: italic;
 }
 
  /* Style inputs with type="text", select elements and textareas */
