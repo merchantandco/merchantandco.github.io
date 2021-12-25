@@ -6,7 +6,7 @@ body {
 
 .grid {
     margin: 0 auto;
-    max-width:495px;
+    max-width: 500px;
     width: 100%;
     padding: 60px;
 }
@@ -20,34 +20,34 @@ body {
 }
     	
 h1 {
-	position:relative;
-	display:inline block;
-	margin-right:auto;
-	margin-left:auto;
+	position: relative;
+	display: inline block;
+	margin-right: auto;
+	margin-left: auto;
 	margin-top: 2px;
-	margin-bottom:3px;
+	margin-bottom: 3px;
 	font-family: Karla;
-	font-size:24pt;
-	font-weight:900;
-	color:#0f0f0f;
+	font-size: 24pt;
+	font-weight: 900;
+	color: #0f0f0f;
 }
 	
 h1 span {
-	font-weight:300;
+	font-weight: 300;
 }
     
 h2 {
-        position:relative;
-	display:inline;
+        position: relative;
+	display: inline;
 	text-align: center;
-	margin-right:auto;
-	margin-left:auto;
+	margin-right: auto;
+	margin-left: auto;
 	margin-top: 2px;
-	margin-bottom:3px;
-	font-family:Karla;
-	font-size:16pt;
-	font-weight:300;
-	color:0f0f0f;
+	margin-bottom: 3px;
+	font-family: Karla;
+	font-size: 16pt;
+	font-weight: 300;
+	color: #0f0f0f;
 }
 
 a:link {
@@ -69,16 +69,16 @@ h2 a:hover, a:focus {
 }
 	    
 h3 {
-	position:relative;
-	display:inline;
-	margin-right:auto;
-	margin-left:auto;
+	position: relative;
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
 	margin-top: 2px;
-	margin-bottom:3px;
-    	font-family:Karla;
-	font-size:12pt;
-	font-weight:900;
-	color:#0f0f0f;
+	margin-bottom: 3px;
+    	font-family: Karla;
+	font-size: 12pt;
+	font-weight: 900;
+	color: #0f0f0f;
 }
 
 h3 a:hover, a:focus {
@@ -86,16 +86,16 @@ h3 a:hover, a:focus {
 }
 
 p {
-	position:relative;
-	display:inline block;
-	margin-right:auto;
-	margin-left:auto;
+	position: relative;
+	display: inline block;
+	margin-right: auto;
+	margin-left: auto;
 	margin-top: 2px;
-	margin-bottom:3px;
-    	font-family:Karla;
-	font-size:10pt;
-	font-weight:300;
-	color:#0f0f0f;
+	margin-bottom: 3px;
+    	font-family: Karla;
+	font-size: 10pt;
+	font-weight: 300;
+	color: #0f0f0f;
 	word-wrap: break-word;
     	overflow-wrap: break-word;
 }
@@ -123,12 +123,12 @@ p span3 {
   -moz-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  position:relative;
+  position: relative;
 }
 
 .largecol {
-  -webkit-flex:auto;
-  -moz-flex:auto;
+  -webkit-flex: auto;
+  -moz-flex: auto;
   flex: auto;
   width: 90%;
 }
