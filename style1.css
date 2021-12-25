@@ -6,7 +6,7 @@ body {
 
 .grid {
     margin: 0 auto;
-    max-width:495px;
+    max-width:490px;
     width: 100%;
     padding: 60px;
 }
@@ -38,7 +38,7 @@ h1 span {
     
 h2 {
         position:relative;
-	display:inline block;
+	display:inline;
 	text-align: left;
 	margin-right:auto;
 	margin-left:auto;
@@ -108,7 +108,7 @@ p span2 {
 }
 
 .row {
-	list-style: none;
+  list-style: none;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: -moz-flex;
