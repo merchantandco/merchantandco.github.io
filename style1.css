@@ -17,13 +17,13 @@ h1 {
 	display:inline;
 	text-align:left;
 	font-family: Karla;
-	font-size:31px;
+	font-size:24px;
 	font-weight:900;
 	color:#0f0f0f;
 }
 	
 h1 span {
-	font-weight:900;
+	font-weight:300;
 	color:#0f0f0f;
 }
     
@@ -35,7 +35,7 @@ h2 {
 	display:inline;
         text-align:center;
 	font-family:Karla;
-	font-size:18 px;
+	font-size:14 px;
 	font-weight:300;
 	color:0f0f0f;
 }
@@ -67,7 +67,7 @@ h3 {
 	margin-top: 2 px;
 	margin-bottom:3 px;
     	font-family:Karla;
-	font-size:13 px;
+	font-size:10 px;
 	font-weight:900;
 	color:#0f0f0f;
 }
@@ -81,8 +81,8 @@ h4 {
 	margin-top: 2 px;
 	margin-bottom:3 px;
     	font-family:Karla;
-	font-size:13 px;
-	font-weight:600;
+	font-size:10 px;
+	font-weight:300;
 	color:#0f0f0f;
 }
 
@@ -101,7 +101,7 @@ li {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
     	font-family:Karla;
-	font-size:13 px;
+	font-size:10 px;
 	font-weight:300;
 	color:#0f0f0f;
 }
@@ -117,7 +117,7 @@ p {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
     	font-family:Karla;
-	font-size:13 px;
+	font-size:10 px;
 	font-weight:300;
 	color:#0f0f0f;
 }
@@ -143,7 +143,7 @@ input[type=submit] {
 	border-radius: 2 px;
 	cursor: pointer;
 	font-family:Karla;
-	font-size:13 px;
+	font-size:10 px;
 }
 
 /* When moving the mouse over the submit button, add a lighter yellow color */
@@ -161,14 +161,14 @@ input[type=submit]:hover {
 label {
 	color:#fccd04; 
 	font-family:Karla;
-	font-size:13 px;
+	font-size:10 px;
 	text-transform: uppercase;
 }
 
 ::placeholder {
 	color:#24305e;
 	font-family:Karla;
-	font-size: 13 px;
+	font-size: 10 px;
 }
 
 </style>
