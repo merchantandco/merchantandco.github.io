@@ -7,14 +7,14 @@ body {
 #main {
 	position:relative;
 	left:1%;
-	width: 600px;
+	width: 1200 px;
 }
 
 #line-divider-thick {
 	position:relative;
 	left:2.5%;
 	margin:6px 0px;
-	width:315px;
+	width:315 px;
 	height:2px;
 	color:#fccd04;
 }
@@ -25,7 +25,7 @@ h1 {
 	margin:1px auto;
 	display:inline;
 	text-align:left;
-	font-family:Karla;
+	font-family: Karla;
 	font-size:31px;
 	font-weight:1200;
 	color:#e85a4f;
@@ -39,12 +39,12 @@ h1 span {
 h2 {
         position:relative;
 	left:2.5%;
-        margin:6px auto;
-	padding-right:8px;
+        margin:6 px auto;
+	padding-right:8 px;
 	display:inline;
         text-align:center;
 	font-family:Karla;
-	font-size:18px;
+	font-size:18 px;
 	font-weight:600;
 	color:#90a0de;
 }
@@ -73,10 +73,10 @@ h3 {
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
-	margin-top: 2px;
-	margin-bottom:3px;
+	margin-top: 2 px;
+	margin-bottom:3 px;
     	font-family:Karla;
-	font-size:13px;
+	font-size:13 px;
 	font-weight:1200;
 	color:#d79922;
 }
@@ -87,10 +87,10 @@ h4 {
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
-	margin-top: 2px;
-	margin-bottom:3px;
+	margin-top: 2 px;
+	margin-bottom:3 px;
     	font-family:Karla;
-	font-size:13px;
+	font-size:13 px;
 	font-weight:1200;
 	color:#90a0de;
 }
@@ -105,12 +105,12 @@ li {
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
-	margin-top: 2px;
-	margin-bottom:3px;
+	margin-top: 2 px;
+	margin-bottom:3 px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
     	font-family:Karla;
-	font-size:13px;
+	font-size:13 px;
 	font-weight:600;
 	color:#24305e;
 }
@@ -121,12 +121,12 @@ p {
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
-	margin-top: 2px;
-	margin-bottom:3px;
+	margin-top: 2 px;
+	margin-bottom:3 px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
     	font-family:Karla;
-	font-size:13px;
+	font-size:13 px;
 	font-weight:600;
 	color:#24305e;
 }
@@ -147,12 +147,12 @@ input[type=text], select, textarea {
 input[type=submit] {
 	background-color: #fccd04;
 	color: #ececec;
-	padding: 6px 10px;
+	padding: 6 px 10 px;
 	border: none;
-	border-radius: 2px;
+	border-radius: 2 px;
 	cursor: pointer;
 	font-family:Karla;
-	font-size:13px;
+	font-size:13 px;
 }
 
 /* When moving the mouse over the submit button, add a lighter yellow color */
@@ -164,20 +164,20 @@ input[type=submit]:hover {
 .container {
   border-radius: 8px;
   background-color: #f2f2f2;
-  padding: 15px;
+  padding: 15 px;
 }
 
 label {
 	color:#fccd04; 
 	font-family:Karla;
-	font-size:13px;
+	font-size:13 px;
 	text-transform: uppercase;
 }
 
 ::placeholder {
 	color:#24305e;
 	font-family:Karla;
-	font-size: 13px;
+	font-size: 13 px;
 }
 
 </style>
